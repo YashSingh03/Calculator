@@ -1,7 +1,3 @@
-# Made by Ujjwal tandon
-# Summer vacation project on computer science
-# Project name - Multipurpose calculator
-
 #Main default function
 def main():
     #instructions and welcome code
@@ -14,7 +10,7 @@ def main():
         "5 - Weight \n")
     
     #To choose between different operations eg- standard, temp, length etc...
-    #This runs when standard mode is selected
+    #This runs when the standard mode is selected
     if choice == '1':
          while True:
             #Taking the operator from the user
@@ -25,7 +21,7 @@ def main():
                 break
 
             elif user_input in ["+", "-", "*", "/"]:
-                #Getting the input numbers to be operates on
+                #Getting the input numbers to be operated on
                 num1 = float(input("\nEnter a number: "))
                 num2 = float(input("\nEnter another number: "))
 
@@ -61,7 +57,7 @@ def main():
         conv_to = float(input())
         result = float()
 
-        #To select the precise operations to be done and calculating the output
+        #To select the precise operations to be done and calculate the output
         if (val_type == 1) and (conv_to == 1):
             result = num
         elif (val_type == 1) and (conv_to == 2):
@@ -102,7 +98,7 @@ def main():
         conv_to = float(input())
         result = float()
 
-        #To select the precise operations to be done and calculating the output
+        #To select the precise operations to be done and calculate the output
         if (val_type == 1) and (conv_to == 1):
             result = num
         elif (val_type == 1) and (conv_to == 2):
@@ -141,7 +137,7 @@ def main():
         conv_to = float(input())
         result = float()
 
-        #To select the precise operations to be done and calculating the output
+        #To select the precise operations to be done and calculate the output
         if (val_type == 1) and (conv_to == 1):
             result = num
         elif (val_type == 1) and (conv_to == 2):
@@ -182,7 +178,7 @@ def main():
         conv_to = float(input())
         result = float()
 
-        #To select the precise operations to be done and calculating the output
+        #To select the precise operations to be done and calculate the output
         if (val_type == 1) and (conv_to == 1):
             result = num
         elif (val_type == 1) and (conv_to == 2):
@@ -206,7 +202,7 @@ def main():
             print("\n\nError! \nCheck your input value!")
             
         #Displaying the result
-        print("\nThe converted weightis: ", result)
+        print("\nThe converted weight is: ", result)
 
 main()
 
